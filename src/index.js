@@ -6,6 +6,9 @@ import { ConnectedRouter } from 'react-router-redux'
 import store, { history } from './store'
 import App from './containers/app'
 
+//Css styles
+import './App.scss';
+
 const target = document.querySelector('#root');
 
 render(
